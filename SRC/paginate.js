@@ -76,14 +76,14 @@ function Paginate(options) {
     };
 
     function goToNextPage(callback) {
-        if (config.page <= maxPages()) {
+        if (config.page < maxPages()) {
             config.page++;
             Paginate.prototype.render();
         }
     };
 
     function goToPreviousPage (callback) {
-        if (config.page >= 0) {
+        if (config.page > 0) {
             config.page--;
             Paginate.prototype.render();
         }
