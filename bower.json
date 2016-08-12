@@ -1,8 +1,8 @@
 {
-  "name": "PaginateJS",
+  "name": "paginatejs",
   "homepage": "https://github.com/Lindennerd/PaginateJS",
   "description": "A easy to use vanilla javascript plugin for pagination",
-  "main": "SRC/paginate.min.js",
+  "main": "SRC/paginate.js",
   "keywords": [
     "Pagination",
     "Paginate",
