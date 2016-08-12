@@ -1,5 +1,5 @@
 # PaginateJS
-This is a simple pagination, yet very customizable, snippet written on plain-old vanilla Javascript.
+This is a simple, yet very customizable, pagination snippet written on plain-old vanilla Javascript.
 ##Installation
 You can clone this repo or download the minified file [here](https://raw.githubusercontent.com/Lindennerd/PaginateJS/master/SRC/paginate.min.js)
 
