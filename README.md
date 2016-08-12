@@ -34,6 +34,7 @@ paginate.render(); // the function to render it all
 here is a full list of the options:
 
 * source: the resource path
+* params: object with the additional parameters definition to use in the server request
 * container: the container element where the pagination template will render itself,
 * page: the page number,
 * pageSize: the page size,
