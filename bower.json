@@ -1,21 +1,22 @@
 {
-  "name": "paginate JS",
-  "version": "1.0",
-  "description": "A utility for easily paginate. No JQuery required, only plain-old vanilla JS",
-  "main": "src/paginate.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Lindennerd/PaginateJS.git"
-  },
+  "name": "PaginateJS",
+  "homepage": "https://github.com/Lindennerd/PaginateJS",
+  "description": "A easy to use vanilla javascript plugin for pagination",
+  "main": "SRC/paginate.min.js",
   "keywords": [
-    "paginate",
-    "pagination",
-    "vanilla"
+    "Pagination",
+    "Paginate",
+    "Vanilla"
   ],
-  "author": "Lindennerd",
+  "authors": [
+    "Lindennerd"
+  ],
   "license": "GNU",
-  "readmeFilename": "README.md"
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
