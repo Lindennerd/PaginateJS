@@ -2,7 +2,14 @@
 This is a simple pagination, yet very customizable, snippet written on plain-old vanilla Javascript.
 ##Installation
 You can clone this repo or download the minified file [here](https://raw.githubusercontent.com/Lindennerd/PaginateJS/master/SRC/paginate.min.js)
+
 After that, all you have to do is add a reference to this script on your HTML.
+
+Aditionally, you may install it using [bower](https://bower.io/)
+
+```
+bower install paginatejs
+```
 
 ```HTML
 <script src="~/Scripts/Shared/paginate.js"></script>
