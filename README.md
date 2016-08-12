@@ -5,14 +5,15 @@ You can clone this repo or download the minified file [here](https://raw.githubu
 
 After that, all you have to do is add a reference to this script on your HTML.
 
+
+```HTML
+<script src="~/Scripts/Shared/paginate.js"></script>
+```
+
 Aditionally, you may install it using [bower](https://bower.io/)
 
 ```
 bower install paginatejs
-```
-
-```HTML
-<script src="~/Scripts/Shared/paginate.js"></script>
 ```
 ##How To Use
 Usage is pretty straightforward. Just create a paginate object and supply the options as desired
