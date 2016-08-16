@@ -31,13 +31,16 @@ var paginate = new Paginate({
 paginate.render(); // the function to render it all
 ```
 
+Your server code _MUST_ return the paged data _AND_ the total of itens in the full collection. There is an option that can be used to specify the name os the fields for this return.
+
 here is a full list of the options:
 
-* source: the resource path
-* params: object with the additional parameters definition to use in the server request
-* container: the container element where the pagination template will render itself,
-* page: the page number,
-* pageSize: the page size,
-* total: you may pass the total of elements,
-* callback: a callback to run after the rendering,
-* template: a HTML template. Specify the page number and the max pages by using the mustache-like syntax ({{page}} and {{maxPages}})
+* __source__: the resource path
+* __params__: object with the additional parameters definition to use in the server request
+* __container__: the container element where the pagination template will render itself,
+* __page__: the page number,
+* __pageSize__: the page size,
+* __total__: you may pass the total of elements,
+* __fields__: a javascript object with the specification of the return of the server. The default is {Total: 'Total', Data: 'Items'},
+* __callback__: a callback to run after the rendering,
+* __template__: a HTML template. Specify the page number and the max pages by using the mustache-like syntax ({{page}} and {{maxPages}})
