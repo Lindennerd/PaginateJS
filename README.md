@@ -31,7 +31,9 @@ var paginate = new Paginate({
 paginate.render(); // the function to render it all
 ```
 
-Your server code _MUST_ return the paged data _AND_ the total of itens in the full collection. There is an option that can be used to specify the name os the fields for this return.
+Your server code _MUST_ return the paged data _AND_ the total of itens in the full collection. 
+
+There is an option that can be used to specify the name os the fields for this return.
 
 here is a full list of the options:
 
