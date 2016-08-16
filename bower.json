@@ -1,6 +1,6 @@
 {
   "name": "paginatejs",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "https://github.com/Lindennerd/PaginateJS",
   "description": "A easy to use vanilla javascript plugin for pagination",
   "main": "SRC/paginate.js",

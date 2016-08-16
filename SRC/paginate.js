@@ -38,10 +38,10 @@ function Paginate(options) {
             if (el.length > 0) {    
                 el[0].innerHTML = template;
 
-                document.getElementById("goToFirstPage").onclick = goToFirstPage; 
-                document.getElementById("goToNextPage").onclick = goToNextPage; 
-                document.getElementById("goToLastPage").onclick = goToLastPage;
-                document.getElementById("goToPreviousPage").onclick = goToPreviousPage;
+                document.querySelector(config.container + " #goToFirstPage").onclick = goToFirstPage; 
+                document.querySelector(config.container + " #goToNextPage").onclick = goToNextPage; 
+                document.querySelector(config.container + " #goToLastPage").onclick = goToLastPage;
+                document.querySelector(config.container + " #goToPreviousPage").onclick = goToPreviousPage;
             }
 
             if(config.callback){
