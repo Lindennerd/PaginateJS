@@ -29,7 +29,7 @@ function Paginate(options) {
 
     Paginate.prototype.render = function() {
         load(function(resp) {
-            var template = config.template.replace('{{page}}', config.page).replace('{{maxPages}}', maxPages());
+            var template = config.template.replace('{{page}}', (config.page + 1)).replace('{{maxPages}}', (maxPages() + 1));
             var el = document.querySelectorAll(config.container);
             if (!config.container) {
                 console.log('indicate a container element');
